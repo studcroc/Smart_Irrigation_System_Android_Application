@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/watering_history_menu_item"
+        android:title="Watering History" />
+    <item
+        android:id="@+id/settings_menu_item"
+        android:title="Settings" />
+</menu>

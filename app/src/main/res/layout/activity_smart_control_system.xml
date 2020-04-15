@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Scroll View is used so that when using app in smaller size
+     screen , then still we will be able to scroll and view the
+     entire elements of the layout -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/header_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/header_text"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:fontFamily="serif" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="144dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/text_view_background_shape">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="37dp"
+                android:text="WATER PUMP"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/water_pump_switch"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:onClick="openWaterPump"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="254dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/text_view_background_shape">
+
+            <TextView
+                android:id="@+id/header_temperature_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="37dp"
+                android:text="TEMPERATURE"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/temperature_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent" />
+
+            <ProgressBar
+                android:id="@+id/temperature_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="364dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/text_view_background_shape">
+
+            <TextView
+                android:id="@+id/header_moisture_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="37dp"
+                android:text="MOISTURE STATUS"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/moisture_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent" />
+
+            <ProgressBar
+                android:id="@+id/moisture_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="474dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/text_view_background_shape">
+
+            <TextView
+                android:id="@+id/header_alarm_manager_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="37dp"
+                android:text="ALARM MANAGER"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/alarm_manager_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="27dp"
+                android:layout_marginRight="20dp"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent"
+                android:text="OPEN"
+                android:onClick="openAlarmManager"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
