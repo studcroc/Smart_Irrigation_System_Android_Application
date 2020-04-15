@@ -13,4 +13,6 @@ controlled directly from the app.
 6. Has provision for Watering History to show when and till what time , irrigation was done.
 7. This app uses Firebase as hosted database.
 ## Screenshots :
-![HomePage](https://github.com/hvg2416/Smart_Irrigation_System_Android_Application/blob/master/Screenshots/1.jpg)
+<img src="https://github.com/hvg2416/Smart_Irrigation_System_Android_Application/blob/master/Screenshots/1.jpg" width="300" height="400">
+<img src="https://github.com/hvg2416/Smart_Irrigation_System_Android_Application/blob/master/Screenshots/2.jpg" width="300" height="400">
+<img src="https://github.com/hvg2416/Smart_Irrigation_System_Android_Application/blob/master/Screenshots/3.jpg" width="300" height="400">
